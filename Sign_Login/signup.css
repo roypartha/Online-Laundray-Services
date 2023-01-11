@@ -1,0 +1,130 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(signupImage.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    z-index: 999;
+}
+header{
+    background: #acddf3ce; 
+    color: azure;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+}
+nav{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+
+}
+.logo{
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    
+}
+.menu>li,.menu>a{
+    display: inline-block;
+}
+.menu a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 10px 15px;
+    border-right: 1px solid rgb(18, 27, 155);
+    border-left: 1px solid rgb(18, 27, 155);
+    display: block;
+    transition: background .10s ease, color .10s ease;
+}
+.menu a:hover{
+    background: #fff;
+    color: #333;
+}
+.div2{
+
+    width: 300px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+    border-radius: 10%;
+    background: none;
+    padding: 20px;
+    margin: 8% auto;
+    padding: 20px ;
+    text-align: center;
+    
+  
+}
+.div2 h3{                   
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(6, 66, 156);
+    text-align: center;
+    margin-bottom: 20px;
+}
+.div2 input{
+    width: 70%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid rgb(32, 35, 224);
+    border-radius: 5px;
+    outline: none;
+    font-size: 12px;
+}
+.div2 input[type="submit"]{
+    color: #fff;
+    width: 100%;
+    background: #1b37d6ce;
+    padding: 10px ;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+
+}
+.sign.succes input{
+    border: 1px solid #10b44fce;
+
+}
+.sign.error input{
+    border: 1px solid #ff0000ce;
+
+}
+.sign small{
+    visibility: hidden;
+}
+.sign.error small{
+    visibility: visible;
+    color: #ff0000ce;
+    background-color: antiquewhite;
+}
+
+
+
+
+ 
+/* Set the logo on top*/
+.top{
+
+    position: fixed;
+    top: 1%;
+    left: 47%;
+    z-index: 999999;
+
+}
+ /* make the image circular */
+.top img{
+    
+    border-radius: 50%;
+    border: 2px solid rgb(255, 255, 255);
+    box-shadow: 0 0 10px rgba(22, 141, 86, 0.5);
+}

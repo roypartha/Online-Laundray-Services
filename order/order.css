@@ -1,0 +1,215 @@
+html, body{
+    height: 100%;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    display: inline-block;
+    list-style: none;
+}
+body
+{
+    background-color: rgba(144, 205, 240, 0.384);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+header{
+    box-shadow: 0 0 10px rgba(22, 141, 86, 0.5);
+    background: no-repeat;
+    padding: 5px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+}
+nav{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between ;
+    padding: 3px;
+}
+.menu>li,.menu>a{
+    display: inline-block;
+}
+.menu li{
+    position: relative;
+}
+.menu a{
+    color: rgb(5, 46, 49);
+    font-weight: 700;
+    text-decoration: none;
+    padding: 10px 15px;
+   
+    display: block;
+    
+}
+.menu a:hover{
+    background: rgb(131, 138, 238);
+    transition: background .10s ease, color .10s ease;
+    border-radius: 5px;
+    color: #333;
+}
+.logo{
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: 0px;
+    color: rgb(255, 255, 255);
+    
+}
+
+.form{
+    width: 600px;;
+}
+
+/* Style the search field */
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+  }
+  
+  /* Style the submit button */
+  form.example button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+  }
+  
+  form.example button:hover {
+    background: #0b7dda;
+  }
+  
+  /* Clear floats */
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .div_header{
+    margin-top: 70px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 5px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    padding: 10px;
+    justify-content: space-between;
+    box-shadow: 0 0 10px rgba(22, 141, 86, 0.5);
+    display:flex;
+    text-align: center;
+   
+    
+  }
+  .header_item{
+    margin-bottom:5px;
+    width: 120px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    padding: 5px;
+    
+    box-shadow: 0 0 10px rgba(15, 83, 211, 0.5);
+
+    
+  }
+    .header_item:hover{
+        background-color: rgba(219, 240, 170, 0.8);
+        transition: background .10s ease, color .10s ease;
+        border-color: #f05209;
+        transition: border .10s ease, color .10s ease;
+        border-radius: 10px;
+        color: rgb(78, 100, 226);
+    }
+    
+
+
+  .div_header a{
+    text-decoration: none;
+    color: rgb(5, 46, 49);
+    font-weight: 400;
+    font-size: 12px;
+  } 
+  
+  #icons{
+    width: 20px;
+    margin-top:5px;
+    border-radius: 50%;
+    border: 2px solid rgb(26, 73, 201);
+    box-shadow: 0 0 10px rgba(22, 141, 86, 0.5)
+  }
+  
+  
+  
+
+  .div_center{
+    margin-top: 5px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    padding: 100px;
+    
+    box-shadow: 0 0 10px rgba(22, 141, 86, 0.5);
+    display: grid;
+    column-gap: 5px;
+    row-gap: 0px ;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+   
+    
+  }
+  .divlist{
+    margin-bottom:20px;
+    height: 160px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 0 0 10px rgba(15, 83, 211, 0.5);
+
+    
+  }
+    .divlist:hover{
+        background-color: rgba(219, 240, 170, 0.8);
+        transition: background .10s ease, color .10s ease;
+        border-color: #f05209;
+        transition: border .10s ease, color .10s ease;
+        border-radius: 10px;
+        color: rgb(78, 100, 226);
+    }
+  .div_center a{
+    text-decoration: none;
+    color: rgb(5, 46, 49);
+    font-weight: 500;
+    font-size: 15px;
+  } 
+  
+  #icon{
+    width: 150px;
+    margin-top:20px;
+    border-radius: 50%;
+    border: 2px solid rgb(26, 73, 201);
+    box-shadow: 0 0 10px rgba(22, 141, 86, 0.5)
+  }
+
+

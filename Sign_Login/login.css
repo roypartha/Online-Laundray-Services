@@ -1,0 +1,116 @@
+body{
+    background-image: linear-gradient(to right, rgb(38, 10, 65), #054625, #551f1f);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+
+}
+.login{
+    width: 300px;
+    height: 400px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+    border-radius: 15%;
+    background: none;
+    padding: 20px;
+    margin: 8% auto;
+    padding: 20px ;
+    text-align: center;
+    background-image: url("img/login.jpg");
+    background-size: cover;
+    background-position: center;
+
+   
+   
+
+}
+input{
+
+    width: 70%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid rgb(32, 35, 224);
+    border-radius: 5px;
+    outline: none;
+    font-size: 12px;
+    
+
+}
+input[type="submit"]{
+    color: rgb(179, 8, 185);
+    width: 100%;
+    font-size: large;
+    font-weight: 700    ;
+    background: #0b0241ce;
+    padding: 20px ;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    
+
+}
+h1{
+    color: rgb(73, 204, 12);
+    
+}
+a{
+    text-decoration:none; 
+    color: rgb(238, 98, 98);
+    font-size: 16px;
+    font-weight: 200;
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+.p1{
+    text-decoration: none;
+    color: rgb(218, 32, 32);
+    font-size: 16px;
+    font-weight: 200;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.p2{
+    text-decoration: none;
+    
+    color: rgb(243, 235, 116);
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Set the logo on top*/
+.top{
+
+    position: fixed;
+    top: 1%;
+    left: 47%;
+    z-index: 999999;
+
+}
+ /* make the image circular */
+.top img{
+    
+    border-radius: 50%;
+    border: 2px solid rgb(255, 255, 255);
+    box-shadow: 0 0 10px rgba(22, 141, 86, 0.5);
+}
+.login1.succes input{
+    border: 1px solid #10b44fce;
+
+}
+.login1.error input{
+    border: 1px solid #ff0000ce;
+
+}
+.login1 small{
+    visibility: hidden;
+}
+.login1.error small{
+    visibility: visible;
+    color: #ff0000ce;
+    background-color: antiquewhite;
+}

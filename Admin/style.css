@@ -1,0 +1,142 @@
+html, body{
+    height: 100%;
+
+}*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+body
+{
+    background-image: url(Admin_P.jfif);
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+/* nav*/
+header{
+    background: #3069e2;
+    color: rgb(165, 16, 16);
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+}
+nav{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+.logo{
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    
+}
+.menu>li,.menu>a{
+    display: inline-block;
+}
+.menu a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    transition: background .10s ease, color .10s ease;
+}
+.menu a:hover{
+    background: #fff;
+    color: #333;
+}
+
+
+
+
+.nav_menu{
+    max-width: 250px;
+    margin-top:45px;
+    margin-left:0px;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: left;
+    justify-content: space-between;
+    padding: 30px ;
+    
+   
+}
+.menu2>li,.menu2>a{
+    display: block; 
+   
+}
+.menu2 a{
+    color: hsl(251, 73%, 32%);
+    text-decoration: none;
+    list-style: none;
+    padding: 10px 15px;
+    margin: 0px;
+  
+    border: 1px solid rgb(1, 13, 19);
+    display: block;
+    transition: background .10s ease, color .10s ease;
+}
+.menu2 a:hover{
+    background: rgba(81, 145, 230, 0.945);
+    color: rgb(223, 236, 236);
+}
+.menu2 ul{
+    display: none;
+}
+.menu2 li:hover > ul{
+    display: block;
+    margin-left: 20px;
+    
+}
+.menu2 ul li{
+    margin: 0;
+    padding: 0;
+    border-bottom: none;
+}
+.menu2 ul a:before{
+    content:'\203A';
+    color: #000;
+}
+.nav_menu .spend_arrow:after{
+    content: "\203A";
+    float: right;
+    margin-left: 5px;
+    margin-right: 20px;
+    color: rgb(23, 168, 18);
+    
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+       
+}
+.nav_menu li:hover .spend_arrow:after{
+    content: '\2039';
+}
+.login.succes input{
+    border: 1px solid #10b44fce;
+
+}
+.login.error input{
+    border: 1px solid #ff0000ce;
+
+}
+.login small{
+    visibility: hidden;
+}
+.login.error small{
+    visibility: visible;
+    color: #ff0000ce;
+    background-color: antiquewhite;
+}
+
+
+
+

@@ -1,0 +1,138 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+body{
+    background: linear-gradient(rgba(228, 208, 33, 0.5),rgba(67, 97, 233, 0.5));
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+    z-index: 999;
+
+
+}
+main{
+    width: 90%;
+    margin-top:3%;
+    
+    margin-right: 5%;
+    margin-left: 5%;
+    background: linear-gradient(rgba(233, 159, 159, 0.5),rgba(95, 231, 202, 0.5));
+    box-shadow: 0 0 10px 0 rgba(233, 139, 139, 0.2);
+    border:  1px solid rgb(238, 159, 159);
+    display: grid;
+    grid-template-rows: 550px;    
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 100px;
+    
+}
+.div1{
+    width: 300px;
+    box-shadow: 0 0 10px 0 rgba(12, 201, 28, 0.2);
+    background: rgb(213, 219, 219);
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-bottom: 5%;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+.div1 li{
+    font-size: 12px;
+    font-weight: 100;
+    color: rgb(6, 66, 156);
+    text-align: left;
+    margin-bottom: 20px;
+}
+.div1 p{
+    font-size: 12px;
+    font-weight: 100;
+    color: rgb(6, 66, 156);
+    text-align: left;
+    margin-bottom: 20px;
+}
+.div1 h4{                   
+    font-size: 16px;
+    font-weight: 200;
+    color: rgb(23, 156, 6);
+    text-align: left;
+    margin-bottom: 20px;
+}
+.div2{
+    width: 350px;
+  
+    box-shadow: 0 0 10px 0 rgba(14, 211, 47, 0.2);
+    background: rgb(213, 219, 219);
+    margin-top: 4%;
+    margin-bottom: 4%;
+    padding: 20px ;
+    text-align: center;
+    
+}
+.div2 a{
+    font-size: 12px;
+    font-weight: 200;
+    padding: 10px 0;
+    display: block;
+    border: 1px solid rgb(11, 31, 219);
+    transition: 0.5s;
+}
+.div2 .td_all{
+    font-size: 14px;
+    font-weight: 300;
+    color: rgb(6, 66, 156);
+    text-align: left;
+    margin-bottom: 20px;
+
+}
+.div2 select{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid rgb(32, 35, 224);
+    border-radius: 5px;
+    outline: none;
+    font-size: 12px;
+
+}
+.div2 h2{
+    font-size: 25px;
+    font-weight: 700;
+    margin: 10px 0;
+    color: rgb(23, 156, 6);
+    text-align: center;
+    margin-bottom: 20px;
+}
+.div2 input{
+    width: 100%;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(32, 35, 224);
+    border-radius: 5px;
+    outline: none;
+    font-size: 12px;
+}
+.div2 input[type="submit"]{
+    color: #fff;
+    width: 100%;
+    background: #1b37d6ce;
+    padding: 10px ;
+    margin-left: 100px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+}
+
+/*make image circle*/
+.div1 img{
+    border-radius: 50%;
+    border: 2px solid rgb(255, 255, 255);
+    box-shadow: 0 0 10px rgba(22, 141, 86, 0.5);
+    
+}

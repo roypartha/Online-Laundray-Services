@@ -1,0 +1,74 @@
+html, body{
+    height: 100%;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(120deg,#53a9e2,#7576e4,#59e2a2);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    box-sizing: border-box;
+    display: block;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.maindiv{
+    margin-top: 100px;
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 50%;
+    text-align: center;
+    height: 100%;
+    background: linear-gradient(120deg,#10e445,#79caab,#6bdfcf);
+    border-radius: 10px;
+    padding: 30px;
+
+}
+h1{
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(0, 24, 238);
+    margin-bottom: 20px;
+}
+.maindiv form{
+    display: block;
+    
+}
+.maindiv select{
+    width: 20%;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid rgb(79, 95, 240);
+    background-color: #6bdfcf;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(0, 24, 238);
+    
+}
+.maindiv input{
+    width: 20%;
+    height: 30px;
+    border-radius: 5px;
+    background-color: aquamarine;
+    border: 1px solid rgb(79, 95, 240);
+    margin-top: 50px;
+    margin-bottom: 5px;
+    margin-left: 80%;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(0, 24, 238);
+}
+.maindiv input:hover{
+    background-color: rgb(13, 255, 174);
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+}

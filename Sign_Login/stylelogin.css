@@ -1,0 +1,149 @@
+body
+{
+     margin: 0;
+     padding: 0;
+     font-family: sans-serif;
+     background: linear-gradient(120deg,#2980b9,#8e44ad);
+     height: 100vh;
+     overflow: hidden;
+}
+.header
+{
+     text-align: center;
+     width: 100%;
+     height: 50px;
+     font-size: 18px;
+     color: #e9f4fb;
+     font-weight: 700;
+     cursor: pointer;
+     outline: none;
+}
+
+.center
+{
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%,-50%);
+     width: 400px;
+     background: white;
+     border-radius: 10px;
+}
+.center h1
+{
+     text-align: center;
+     padding: 0 0 20px 0;
+     border-bottom: 1px solid black;
+}
+.center form
+{
+     padding: 0 40px;
+     box-sizing: border-box;
+}
+form .text_field
+{
+     position: relative;
+     border-bottom: 2px solid black;
+     margin: 30px 0;
+}
+.text_field input
+{
+     width: 100%;
+     padding: 0 5px;
+     height: 40px;
+     font-size: 16px;
+     border: none;
+     outline: none;
+}
+.text_field label
+{
+     position: absolute;
+     top: 50%;
+     left: 5px;
+     color: #adadad;
+     transform: translateY(-50%);
+     font-size: 16px;
+     pointer-events: none;
+}
+.text_field span::before
+{
+     content: '';
+     position: absolute;
+     top: 40px;
+     left: 0;
+     width: 100%;
+     height: 2px;
+     background: #2691d9;
+}
+
+input[type="submit"]
+{
+     width: 100%;
+     height: 50px;
+     border: 1px solid;
+     background: #2691d9;
+     border-radius: 25px;
+     font-size: 18px;
+     color: #e9f4fb;
+     font-weight: 700;
+     cursor: pointer;
+     outline: none;
+}
+input[type="submit"]:hover
+{
+     border-color: #2691d9;
+     padding-bottom:10px;
+}
+.signup_link{
+     text-align: center;
+     margin: 0 auto;
+     display: block;
+     justify-content: space-between;
+     padding: 0 30px;
+     background-color: #d9eef1;
+}
+.signup_link ul
+{
+     margin: 0;
+     padding: 0;
+     list-style: none;   
+}
+
+.signup_link ul li
+{
+     display: inline-block;
+}
+.signup_link ul li a
+{
+     display: inline-block;
+     text-decoration: none;
+     color: #2691d9;
+     font-size: 14px;
+     padding: 5px 20px;
+     border-right: 1px solid rgb(18, 27, 155);
+    border-left: 1px solid rgb(18, 27, 155);
+     
+}
+.signup_link ul li a:hover
+{
+     background: #fff;
+     color: #333;
+}
+.login1.succes input{
+     border: 1px solid #10b44fce;
+ 
+ }
+ .login1.error input{
+     border: 1px solid #ff0000ce;
+ 
+ }
+ .login1 small{
+     visibility: hidden;
+ }
+ .login1.error small{
+     visibility: visible;
+     color: #ff0000ce;
+     background-color: antiquewhite;
+ }
+ 
+
