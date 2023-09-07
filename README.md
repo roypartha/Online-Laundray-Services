@@ -1,1 +1,1 @@
-# Online-Laundray-Services
+# Online-Laundry-Services
